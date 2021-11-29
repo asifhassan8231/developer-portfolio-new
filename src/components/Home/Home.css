@@ -1,0 +1,23 @@
+.container{
+    height: 100vh;
+}
+.logo {
+    height: 32px;
+    margin: 16px;
+  }
+
+  .logo h1{
+    font-size: 20px;
+  background: -webkit-linear-gradient(#FFCCCC,#CCFFFF);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  .site-layout-sub-header-background {
+    background: linear-gradient(35deg, #fd9494,#9efafa);
+  }
+  
+  .site-layout-background { 
+  background: linear-gradient(35deg, #CCFFFF,#FFCCCC);
+  height:100%;
+  }
