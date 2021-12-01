@@ -3,6 +3,7 @@ import './App.css';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import Info from './components/Info/Info';
+import Project from './components/Project/Project';
 import Projects from './components/Projects/Projects';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route exact path="/" element={<Home />} >
             <Route exact path="/" element={<Info />} />
             <Route path="/home/projects" element={<Projects />} />
+            <Route path="/home/projects/:prId" element={<Project />} />
             <Route path="/home/info" element={<Info />} />
             <Route path="/home/contact" element={<Contact />} />
           </Route>
